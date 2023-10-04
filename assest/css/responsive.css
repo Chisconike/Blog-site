@@ -1,0 +1,43 @@
+
+@media only screen and (max-width: 666px) {
+.navbar {
+  display: block;
+  padding: 20px 30px;
+  height: 60px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.nav-active {
+  height: 300px;
+}
+.navbar ul li {
+  display: block;
+  padding: 20px 0;
+}
+
+.navbar ul {
+  padding-top: 20px;
+}
+
+.navbar .toggler{
+  display: initial !important;
+}
+
+}
+
+
+@media only screen and (max-width: 1050px) {
+  #posts {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .popular-post>h1 {
+    text-align: center;
+  }
+
+  #posts .post-container {
+  margin-top: 10px;
+  }
+}
+
+
